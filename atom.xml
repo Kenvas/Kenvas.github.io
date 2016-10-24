@@ -85,10 +85,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts7658" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts8227" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts7658'));
+        var myChart = echarts.init(document.getElementById('echarts8227'));
 
         // 指定图表的配置项和数据
         var option = {
@@ -200,34 +200,6 @@
     
     
       <category term="Hexo" scheme="https://chingsko.oschina.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>助词分类</title>
-    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-category/"/>
-    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-category/</id>
-    <published>2016-10-12T14:08:13.000Z</published>
-    <updated>2016-10-12T14:08:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><span class="math display">\[R_{m \times n}^{2}\]</span></p>
-<a id="more"></a>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;span class=&quot;math display&quot;&gt;\[R_{m \times n}^{2}\]&lt;/span&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
-    
-      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
-    
-      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
-    
-    
-      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
     
   </entry>
   
@@ -1560,7 +1532,7 @@ rgb(255, 69, 0)
 <li>[x] 新增 LaTex 公式编号功能</li>
 </ul>
 <h3 id="书写一个质能守恒公式-latex">2. 书写一个质能守恒公式 <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></h3>
-<p><span class="math display">\[E=mc^2\]</span></p>
+<p><br><span class="math display"><em>E</em> = <em>m</em><em>c</em><sup>2</sup></span><br></p>
 <h3 id="高亮一段代码-code">3. 高亮一段代码 <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></h3>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@requires_authorization</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">    <span class="comment"># A comment</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'hello world'</span></div></pre></td></tr></table></figure>
 <h3 id="高效绘制-流程图">4. 高效绘制 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图" target="_blank" rel="external">流程图</a></h3>
@@ -1647,7 +1619,7 @@ rgb(255, 69, 0)
 <section class="footnotes">
 <hr>
 <ol>
-<li id="fn1"><p>支持 <strong>LaTeX</strong> 编辑显示支持，例如：<span class="math inline">\(\\sum_{i=1}^n a_i=0\)</span>， 访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法。<a href="#fnref1">↩</a></p></li>
+<li id="fn1"><p>支持 <strong>LaTeX</strong> 编辑显示支持，例如：<span class="math inline">$\\sum_{i=1}^n a_i=0$</span>， 访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法。<a href="#fnref1">↩</a></p></li>
 <li id="fn2"><p>代码高亮功能支持包括 Java, Python, JavaScript 在内的，<strong>四十一</strong>种主流编程语言。<a href="#fnref2">↩</a></p></li>
 </ol>
 </section>
