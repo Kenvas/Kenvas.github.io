@@ -6,7 +6,102 @@
     <entry>
       <title><![CDATA[助词分类]]></title>
       <url>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-category/</url>
-      <content type="html"><![CDATA[<a id="more"></a>
+      <content type="html"><![CDATA[<ul>
+<li>没有活用性（词尾变化）的<strong>附属词</strong></li>
+<li>接在体言、用言等<strong>独立词</strong>的后面，有如下作用
+<ul>
+<li>表示该词在句中的地位</li>
+<li>表示该词与其他词的关系</li>
+<li>给该词添加某种意义</li>
+</ul></li>
+<li>根据职能、接续法、后续词的不同，一般分为 6 类（也有分成 4 类的）</li>
+</ul>
+<a id="more"></a>
+<h1 id="section"><ruby>格助詞<rp> (</rp><rt>かくじょし</rt><rp>) </rp></ruby></h1>
+<ol type="1">
+<li>が</li>
+<li>の</li>
+<li>を</li>
+<li>に</li>
+<li>で</li>
+<li>と</li>
+<li>から</li>
+<li>まで</li>
+<li>へ</li>
+<li>より</li>
+</ol>
+<h1 id="section-1"><ruby>接続助詞<rp> (</rp><rt>せつぞくじょし</rt><rp>) </rp></ruby></h1>
+<ol type="1">
+<li>て</li>
+<li>ながら</li>
+<li>し</li>
+<li>から</li>
+<li>ので</li>
+<li>ば</li>
+<li>と</li>
+<li>ては（では）</li>
+<li>が</li>
+<li>けれども（けれど、けど、だが、ですが）</li>
+<li>のに</li>
+<li>ても（でも）</li>
+<li>たって（だって）</li>
+<li>とも</li>
+</ol>
+<h1 id="section-2"><ruby>提示助詞<rp> (</rp><rt>ていじじょし</rt><rp>) </rp></ruby></h1>
+<ol type="1">
+<li>と</li>
+<li>や</li>
+<li>たり</li>
+<li>とか</li>
+<li>だの</li>
+<li>か</li>
+<li>なり</li>
+<li>に</li>
+</ol>
+<h1 id="section-3"><ruby>副助詞<rp> (</rp><rt>ふくじょし</rt><rp>) </rp></ruby></h1>
+<ol type="1">
+<li>は</li>
+<li>こそ</li>
+<li>しか</li>
+<li>さえ</li>
+<li>すら</li>
+<li>も</li>
+<li>でも</li>
+<li>だって</li>
+</ol>
+<h1 id="section-4"><ruby>並立助詞<rp> (</rp><rt>へいりつじょし</rt><rp>) </rp></ruby></h1>
+<ol type="1">
+<li>ほど</li>
+<li>だけ</li>
+<li>ばかり</li>
+<li>くらい（ぐらい）</li>
+<li>きり</li>
+<li>まで</li>
+<li>ずつ</li>
+<li>など</li>
+<li>なんて</li>
+<li>か</li>
+<li>やら</li>
+</ol>
+<h1 id="section-5"><ruby>語気助詞<rp> (</rp><rt>ごきじょし</rt><rp>) </rp></ruby></h1>
+<ol type="1">
+<li>か</li>
+<li>かしら（ん）</li>
+<li>ね（え）</li>
+<li>よ</li>
+<li>な（あ）</li>
+<li>や</li>
+<li>こと</li>
+<li>わ</li>
+<li>ぞ</li>
+<li>ぜ</li>
+<li>い</li>
+<li>もの</li>
+<li>さ</li>
+<li>の</li>
+<li>かな（あ）</li>
+<li>な</li>
+</ol>
 ]]></content>
     </entry>
     
@@ -76,10 +171,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts900" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts4650" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts900'));
+        var myChart = echarts.init(document.getElementById('echarts4650'));
 
         // 指定图表的配置项和数据
         var option = {
@@ -1341,7 +1436,7 @@ rgb(255, 69, 0)
 <li>[x] 新增 LaTex 公式编号功能</li>
 </ul>
 <h3 id="书写一个质能守恒公式-latex">2. 书写一个质能守恒公式 <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></h3>
-<p><br><span class="math display"><em>E</em> = <em>m</em><em>c</em><sup>2</sup></span><br></p>
+<p><span class="math display">\[E=mc^2\]</span></p>
 <h3 id="高亮一段代码-code">3. 高亮一段代码 <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></h3>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@requires_authorization</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">    <span class="comment"># A comment</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'hello world'</span></div></pre></td></tr></table></figure>
 <h3 id="高效绘制-流程图">4. 高效绘制 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图" target="_blank" rel="external">流程图</a></h3>
@@ -1428,7 +1523,7 @@ rgb(255, 69, 0)
 <section class="footnotes">
 <hr>
 <ol>
-<li id="fn1"><p>支持 <strong>LaTeX</strong> 编辑显示支持，例如：<span class="math inline">$\sum_{i=1}^n a_i=0$</span>， 访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法。<a href="#fnref1">↩</a></p></li>
+<li id="fn1"><p>支持 <strong>LaTeX</strong> 编辑显示支持，例如：<span class="math inline">\(\sum_{i=1}^n a_i=0\)</span>， 访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法。<a href="#fnref1">↩</a></p></li>
 <li id="fn2"><p>代码高亮功能支持包括 Java, Python, JavaScript 在内的，<strong>四十一</strong>种主流编程语言。<a href="#fnref2">↩</a></p></li>
 </ol>
 </section>
