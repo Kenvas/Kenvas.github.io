@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chingsko.oschina.io/"/>
-  <updated>2016-10-23T14:08:13.000Z</updated>
+  <updated>2016-10-25T15:12:42.000Z</updated>
   <id>https://chingsko.oschina.io/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>格助词 の</title>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-no/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-no/</id>
+    <published>2016-10-25T15:12:42.000Z</published>
+    <updated>2016-10-25T15:12:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
+    
+      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
+    
+      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
+    
+    
+      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>格助词 が</title>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-ga/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-ga/</id>
+    <published>2016-10-25T15:02:42.000Z</published>
+    <updated>2016-10-25T15:02:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
+    
+      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
+    
+      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
+    
+    
+      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>助词分类</title>
@@ -35,15 +91,15 @@
 <a id="more"></a>
 <h1 id="section"><ruby>格助詞<rp> (</rp><rt>かくじょし</rt><rp>) </rp></ruby></h1>
 <ol type="1">
-<li>が</li>
-<li>の</li>
+<li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-ga/" title="が">が</a></li>
+<li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-ga/" title="の">の</a></li>
 <li>を</li>
 <li>に</li>
-<li>で</li>
+<li>へ</li>
 <li>と</li>
+<li>で</li>
 <li>から</li>
 <li>まで</li>
-<li>へ</li>
 <li>より</li>
 </ol>
 <h1 id="section-1"><ruby>接続助詞<rp> (</rp><rt>せつぞくじょし</rt><rp>) </rp></ruby></h1>
@@ -216,10 +272,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts4650" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts6512" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts4650'));
+        var myChart = echarts.init(document.getElementById('echarts6512'));
 
         // 指定图表的配置项和数据
         var option = {
