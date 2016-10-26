@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chingsko.oschina.io/"/>
-  <updated>2016-10-25T15:12:42.000Z</updated>
+  <updated>2016-10-26T15:12:42.000Z</updated>
   <id>https://chingsko.oschina.io/</id>
   
   <author>
@@ -16,19 +16,132 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>格助词 を</title>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-wo/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-wo/</id>
+    <published>2016-10-26T15:12:42.000Z</published>
+    <updated>2016-10-26T15:12:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><strong>体言</strong>＋を</li>
+<li>相当于“把”或“在”</li>
+</ul>
+<a id="more"></a>
+<h1 id="表示动作的目的或对象">表示动作的目的或对象</h1>
+<ul>
+<li>与<strong>他动词</strong>搭配使用</li>
+<li>构成宾语</li>
+</ul>
+<ol type="1">
+<li>毎日新聞<a href="#">を</a>読む</li>
+<li>田中さんはデパートで靴<a href="#">を</a>買った</li>
+<li><ruby>停留所<rp> (</rp><rt>ていりゅうしょ</rt><rp>) </rp></ruby>
+でバスの来るの<a href="#">を</a>待っている</li>
+</ol>
+<h1 id="表示动作经过的场所或离开的地点">表示动作经过的场所或离开的地点</h1>
+<ul>
+<li>与<strong>移动性自动词</strong>搭配使用（如：行く、歩く、通る、飛ぶ、出る 等）</li>
+<li>构成补语</li>
+</ul>
+<ol type="1">
+<li>飛行機が空<a href="#">を</a>飛ぶ</li>
+<li>毎日庭<a href="#">を</a>散歩する</li>
+<li>大学<a href="#">を</a>卒業して10年経った</li>
+</ol>
+<h1 id="表示经过的时间">表示经过的时间</h1>
+<ul>
+<li>既可以与<strong>他动词</strong>搭配使用，也可以与<strong>自动词</strong>搭配使用</li>
+</ul>
+<ol type="1">
+<li>長い年月<a href="#">を</a>経った</li>
+<li>夏休みをアルバイトで過ごした</li>
+<li>もう10時<a href="#">を</a>過ぎたでしょう</li>
+</ol>
+<h1 id="表示使役的对象">表示使役的对象</h1>
+<ul>
+<li>与<strong>自动词</strong>搭配使用</li>
+</ul>
+<ol type="1">
+<li>人工的に雨<a href="#">を</a>降らせる</li>
+<li>また父<a href="#">を</a>怒らせてしまった</li>
+<li>子供<a href="#">を</a>泣かせるのはよくない</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;＋を&lt;/li&gt;
+&lt;li&gt;相当于“把”或“在”&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
+    
+      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
+    
+      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
+    
+    
+      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
+    
+  </entry>
+  
+  <entry>
     <title>格助词 の</title>
     <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-no/"/>
     <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-no/</id>
     <published>2016-10-25T15:12:42.000Z</published>
     <updated>2016-10-25T15:12:42.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
+    <content type="html"><![CDATA[<ul>
+<li><strong>体言</strong>、<strong>副词</strong>和某些<strong>助词</strong>（如：だけ、から、まで、へ 等）＋の</li>
+</ul>
+<a id="more"></a>
+<h1 id="构成定语">构成定语</h1>
+<ul>
+<li>相当于“的”</li>
+</ul>
+<ol type="1">
+<li>赤<a href="#">の</a>信号</li>
+<li>朝<a href="#">の</a>散歩</li>
+<li>1キロ<a href="#">の</a>肉</li>
+<li>私<a href="#">の</a>時計はスイス製です</li>
+<li>東京まで<a href="#">の</a>切符を買った</li>
+<li>全て<a href="#">の</a>人が幸せになるように祈る</li>
+</ol>
+<h1 id="构成从属句的主语">构成从属句的主语</h1>
+<ul>
+<li>相当于<a href="/posts/japanese/gramma/aux-word/aux-word-kaku-ga/" title="が">が</a>的<strong>构成主语</strong></li>
+</ul>
+<ol type="1">
+<li>我々<a href="#">の</a>住んでいる地球はどんな形ですか</li>
+<li>雨<a href="#">の</a>降る日は田中さんは来ない</li>
+</ol>
+<h1 id="构成从属句的对象语">构成从属句的对象语</h1>
+<ul>
+<li>相当于<a href="/posts/japanese/gramma/aux-word/aux-word-kaku-ga/" title="が">が</a>的<strong>构成对象语</strong></li>
+</ul>
+<ol type="1">
+<li>お茶<a href="#">の</a>飲みたいときはあの喫茶店に行く</li>
+<li>日本語<a href="#">の</a>話せる人はいますか</li>
+</ol>
+<h1 id="构成同位语">构成同位语</h1>
+<ul>
+<li>相当于としての、である的意思</li>
+</ul>
+<ol type="1">
+<li>これは友達<a href="#">の</a>山田さんからの手紙です</li>
+<li>僕の親友<a href="#">の</a>鈴木さんも早大出身です</li>
+</ol>
 ]]></content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
+      &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;、&lt;strong&gt;副词&lt;/strong&gt;和某些&lt;strong&gt;助词&lt;/strong&gt;（如：だけ、から、まで、へ 等）＋の&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -66,7 +179,7 @@
 </ol>
 <h1 id="构成对象语">构成对象语</h1>
 <ul>
-<li>表示好恶、巧拙、愿望、能力等的对象<br></li>
+<li>表示好恶、巧拙、愿望、能力等的对象</li>
 </ul>
 <ol type="1">
 <li>太郎は肉より魚<a href="#">が</a>好きだ</li>
@@ -118,7 +231,7 @@
 <ol type="1">
 <li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-ga/" title="が">が</a></li>
 <li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-no/" title="の">の</a></li>
-<li>を</li>
+<li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-wo/" title="を">を</a></li>
 <li>に</li>
 <li>へ</li>
 <li>と</li>
@@ -300,10 +413,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts6784" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts7619" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6784'));
+        var myChart = echarts.init(document.getElementById('echarts7619'));
 
         // 指定图表的配置项和数据
         var option = {
