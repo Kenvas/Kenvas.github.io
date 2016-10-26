@@ -13,7 +13,30 @@
     <entry>
       <title><![CDATA[格助词 が]]></title>
       <url>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-ga/</url>
-      <content type="html"><![CDATA[<a id="more"></a>
+      <content type="html"><![CDATA[<ul>
+<li><strong>体言</strong>和某些<strong>助词</strong>（如：など、だけ、から、まで 等）＋が</li>
+<li>无适当汉语可译</li>
+</ul>
+<a id="more"></a>
+<h1 id="构成主语">构成主语</h1>
+<ol type="1">
+<li>鳥<a href="#">が</a>鳴いている</li>
+<li>それ<a href="#">が</a>私の本です</li>
+<li>部屋<a href="#">が</a>広くて明るい</li>
+<li>机の上には本<a href="#">が</a>あります</li>
+<li>私だけ<a href="#">が</a>知っている</li>
+<li>電話<a href="#">が</a>かかってきた</li>
+</ol>
+<h1 id="构成对象语">构成对象语</h1>
+<ul>
+<li>表示好恶、巧拙、愿望、能力等的对象<br></li>
+</ul>
+<ol type="1">
+<li>太郎は肉より魚<a href="#">が</a>好きだ</li>
+<li>京子はテニス<a href="#">が</a>上手です</li>
+<li>カメラ<a href="#">が</a>欲しい</li>
+<li>日本語<a href="#">が</a>話せる</li>
+</ol>
 ]]></content>
     </entry>
     
@@ -34,7 +57,7 @@
 <h1 id="section"><ruby>格助詞<rp> (</rp><rt>かくじょし</rt><rp>) </rp></ruby></h1>
 <ol type="1">
 <li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-ga/" title="が">が</a></li>
-<li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-ga/" title="の">の</a></li>
+<li><a href="/posts/japanese/gramma/aux-word/aux-word-kaku-no/" title="の">の</a></li>
 <li>を</li>
 <li>に</li>
 <li>へ</li>
@@ -156,7 +179,7 @@
 <a id="more"></a>
 <p>插件安装命令：<code>npm install &lt;plugin-name&gt; --save</code></p>
 <p>将下面代码保存至 <code>xxx.bat</code> 放在站点根目录直接运行就可以装好以下插件了</p>
-<figure class="highlight bat"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="comment">rem 根据 visual studio 实际安装路径设置</span></div><div class="line"><span class="built_in">set</span> VCTargetsPath=C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.<span class="number">0</span>\V140</div><div class="line"><span class="keyword">call</span> cnpm install hexo-deployer-git --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-generator-feed --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-generator-search --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-generator-sitemap --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-renderer-pandoc --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-ruby-character --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-tag-echarts --save</div><div class="line"><span class="keyword">call</span> cnpm install glup --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-concat --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-htmlclean --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-htmlmin --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-imagemin --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-minify-css --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-uglify --save-dev</div></pre></td></tr></table></figure>
+<figure class="highlight bat"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment">rem 根据 visual studio 实际安装路径设置</span></div><div class="line"><span class="built_in">set</span> VCTargetsPath=C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.<span class="number">0</span>\V140</div><div class="line"><span class="keyword">call</span> cnpm install hexo-deployer-git --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-generator-feed --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-generator-search --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-generator-sitemap --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-generator-baidu-sitemap --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-renderer-pandoc --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-ruby-character --save</div><div class="line"><span class="keyword">call</span> cnpm install hexo-tag-echarts --save</div><div class="line"><span class="keyword">call</span> cnpm install glup --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-concat --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-htmlclean --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-htmlmin --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-imagemin --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-minify-css --save-dev</div><div class="line"><span class="keyword">call</span> cnpm install gulp-uglify --save-dev</div></pre></td></tr></table></figure>
 <h1 id="hexo-deployer-git">hexo-deployer-git</h1>
 <p>插件安装好后在<code>站点配置文件</code>中添加以下配置</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: </div><div class="line">    github: https://github.com/<span class="tag">&lt;<span class="name">username</span>&gt;</span>/<span class="tag">&lt;<span class="name">username</span>&gt;</span>.github.io.git</div><div class="line">    oschina: https://git.oschina.net/<span class="tag">&lt;<span class="name">username</span>&gt;</span>/<span class="tag">&lt;<span class="name">username</span>&gt;</span>.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
@@ -169,6 +192,9 @@
 <h1 id="hexo-generator-sitemap">hexo-generator-sitemap</h1>
 <p>插件安装好后在<code>站点配置文件</code>中添加以下配置</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">sitemap:</span></div><div class="line"><span class="attr">  path:</span> sitemap.xml</div></pre></td></tr></table></figure>
+<h1 id="hexo-generator-baidu-sitemapgenerator-baidu-sitemap"><a href="https://github.com/coneycode/hexo-generator-baidu-sitemap" target="_blank" rel="external">hexo-generator-baidu-sitemap</a></h1>
+<p>插件安装好后在<code>站点配置文件</code>中添加以下配置</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">baidusitemap:</span></div><div class="line"><span class="attr">  path:</span> baidusitemap.xml</div></pre></td></tr></table></figure>
 <h1 id="hexo-renderer-pandocrenderer-pandoc"><a href="https://github.com/wzpan/hexo-renderer-pandoc" target="_blank" rel="external">hexo-renderer-pandoc</a></h1>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> args = [<span class="string">'-f'</span>, <span class="string">'markdown'</span>, <span class="string">'-t'</span>, <span class="string">'html5'</span>, <span class="string">'--mathjax'</span>]</div></pre></td></tr></table></figure>
 <h1 id="hexo-ruby-characterruby-character"><a href="https://github.com/JamesPan/hexo-ruby-character" target="_blank" rel="external">hexo-ruby-character</a></h1>
@@ -185,10 +211,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts6512" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts6784" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6512'));
+        var myChart = echarts.init(document.getElementById('echarts6784'));
 
         // 指定图表的配置项和数据
         var option = {
