@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Kenvas&#39;s Note</title>
+  <title>ZZH&#39;s Note</title>
   
   <link href="/atom.xml" rel="self"/>
   
@@ -9,7 +9,7 @@
   <id>https://chingsko.oschina.io/</id>
   
   <author>
-    <name>Kenvas</name>
+    <name>ZZH</name>
     
   </author>
   
@@ -24,7 +24,6 @@
     
     <content type="html"><![CDATA[<ul>
 <li><strong>体言</strong>＋を</li>
-<li>相当于“把”或“在”</li>
 </ul>
 <a id="more"></a>
 <h1 id="表示动作的目的或对象">表示动作的目的或对象</h1>
@@ -72,7 +71,6 @@
     
       &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;＋を&lt;/li&gt;
-&lt;li&gt;相当于“把”或“在”&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
@@ -96,7 +94,7 @@
     <updated>2016-10-25T15:12:42.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
-<li><strong>体言</strong>、<strong>副词</strong>和某些<strong>助词</strong>（如：だけ、から、まで、へ 等）＋の</li>
+<li><strong>体言</strong>／<strong>副词</strong>／某些<strong>助词</strong>（如：だけ、から、まで、へ 等）＋の</li>
 </ul>
 <a id="more"></a>
 <h1 id="构成定语">构成定语</h1>
@@ -140,7 +138,7 @@
     <summary type="html">
     
       &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;、&lt;strong&gt;副词&lt;/strong&gt;和某些&lt;strong&gt;助词&lt;/strong&gt;（如：だけ、から、まで、へ 等）＋の&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;／&lt;strong&gt;副词&lt;/strong&gt;／某些&lt;strong&gt;助词&lt;/strong&gt;（如：だけ、から、まで、へ 等）＋の&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
@@ -164,8 +162,7 @@
     <updated>2016-10-25T15:02:42.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
-<li><strong>体言</strong>和某些<strong>助词</strong>（如：など、だけ、から、まで 等）＋が</li>
-<li>无适当汉语可译</li>
+<li><strong>体言</strong>／某些<strong>助词</strong>（如：など、だけ、から、まで 等）＋が</li>
 </ul>
 <a id="more"></a>
 <h1 id="构成主语">构成主语</h1>
@@ -192,8 +189,7 @@
     <summary type="html">
     
       &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;和某些&lt;strong&gt;助词&lt;/strong&gt;（如：など、だけ、から、まで 等）＋が&lt;/li&gt;
-&lt;li&gt;无适当汉语可译&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;／某些&lt;strong&gt;助词&lt;/strong&gt;（如：など、だけ、から、まで 等）＋が&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
@@ -413,10 +409,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts7619" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts4840" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts7619'));
+        var myChart = echarts.init(document.getElementById('echarts4840'));
 
         // 指定图表的配置项和数据
         var option = {
