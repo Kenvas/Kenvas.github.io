@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chingsko.oschina.io/"/>
-  <updated>2016-10-28T12:45:10.000Z</updated>
+  <updated>2016-10-28T15:17:43.000Z</updated>
   <id>https://chingsko.oschina.io/</id>
   
   <author>
@@ -14,6 +14,97 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>格助词から、を的区别</title>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-diff-kara-wo/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-diff-kara-wo/</id>
+    <published>2016-10-28T15:17:43.000Z</published>
+    <updated>2016-10-28T15:17:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="表示移动起点是から和を的区別">　表示移动起点是“から”和“を’’的区別：</h1>
+<ul>
+<li>当后续动词是表示<strong>具体意义</strong>的词时，两者都可以使用</li>
+<li>当后续动词是表示<strong>抽象意义</strong>的词时，一般只能用“を”</li>
+<li>当强调经由或句子中出現表示终点等助词时，一般只能用“から”</li>
+</ul>
+<a id="more"></a>
+<ol type="1">
+<li>私は大学（ｏから ｏを）出て、買い物に行った</li>
+<li>私の父は大学（ｘから ｏを）出て、すぐに文部省の研究所員になった</li>
+<li><ruby>泥棒<rp> (</rp><rt>どろぼう</rt><rp>) </rp></ruby>
+は玄関（ｏから ｘを）入ったのだ</li>
+<li>火事のときは非常口（ｏから ｘを）出てください</li>
+<li>春になると、渡り鳥が南（ｏから ｘを）北へ飛んでいく</li>
+<li>大阪（ｏから ｘを）新幹線で東京にきた</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;表示移动起点是から和を的区別&quot;&gt;　表示移动起点是“から”和“を’’的区別：&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;当后续动词是表示&lt;strong&gt;具体意义&lt;/strong&gt;的词时，两者都可以使用&lt;/li&gt;
+&lt;li&gt;当后续动词是表示&lt;strong&gt;抽象意义&lt;/strong&gt;的词时，一般只能用“を”&lt;/li&gt;
+&lt;li&gt;当强调经由或句子中出現表示终点等助词时，一般只能用“から”&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
+    
+      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
+    
+      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
+    
+    
+      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>格助词から、で的区别</title>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-diff-kara-de/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-kaku-diff-kara-de/</id>
+    <published>2016-10-28T14:58:05.000Z</published>
+    <updated>2016-10-28T14:58:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="表示材料时">表示材料时</h1>
+<ul>
+<li>から：含有出处、起点的意思，表示原材料</li>
+<li>で：强调方法、手段</li>
+<li>当经过加工制成成品后还可看出原料的本来面目时，<strong>不能</strong>用“から”，<strong>只能</strong>用“で”</li>
+</ul>
+<a id="more"></a>
+<ol type="1">
+<li>日本の家は木（ｏで ｘから）作る</li>
+<li><ruby>毛糸<rp> (</rp><rt>けいと</rt><rp>) </rp></ruby>
+（ｏで ｘから）せーターを<ruby>編<rp> (</rp><rt>あ</rt><rp>) </rp></ruby>む</li>
+<li>酒は<ruby>米<rp> (</rp><rt>こめ</rt><rp>) </rp></ruby>（ｏで ｏから）作る</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;表示材料时&quot;&gt;表示材料时&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;から：含有出处、起点的意思，表示原材料&lt;/li&gt;
+&lt;li&gt;で：强调方法、手段&lt;/li&gt;
+&lt;li&gt;当经过加工制成成品后还可看出原料的本来面目时，&lt;strong&gt;不能&lt;/strong&gt;用“から”，&lt;strong&gt;只能&lt;/strong&gt;用“で”&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
+    
+      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
+    
+      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
+    
+    
+      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>格助词から</title>
@@ -1001,10 +1092,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts5260" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts5131" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts5260'));
+        var myChart = echarts.init(document.getElementById('echarts5131'));
 
         // 指定图表的配置项和数据
         var option = {
