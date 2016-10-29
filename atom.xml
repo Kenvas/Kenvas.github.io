@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chingsko.oschina.io/"/>
-  <updated>2016-10-29T13:54:52.000Z</updated>
+  <updated>2016-10-29T14:19:49.000Z</updated>
   <id>https://chingsko.oschina.io/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>接续助词ては（では）</title>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/setuzoku/aux-word-setuzoku-tewa/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/setuzoku/aux-word-setuzoku-tewa/</id>
+    <published>2016-10-29T14:19:49.000Z</published>
+    <updated>2016-10-29T14:19:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><strong>动词连用形</strong>／<strong>动词型助动词连用形</strong>／<strong>形容词连用形</strong>／<strong>形容词型助动词连用形</strong>＋ては</li>
+<li><strong>形容动词词干</strong>／<strong>形容动词型助动词词干</strong>＋では</li>
+</ul>
+<a id="more"></a>
+<h1 id="表示顺接假定条件">表示顺接假定条件</h1>
+<ul>
+<li>前项条件多为不如意或后果不好的事情</li>
+<li>后项多为否定或消扱的内容</li>
+<li>相当于“如果……就”</li>
+</ul>
+<ol type="1">
+<li><ruby>慌<rp> (</rp><rt>あわ</rt><rp>) </rp></ruby>
+て<a href="#">ては</a>仕事はよくできないだろう</li>
+<li>先生が字を間違え<a href="#">ては</a>困りますね</li>
+<li>途中で止め<a href="#">ては</a>何もならない</li>
+</ol>
+<h1 id="表示顺接确定条件">表示顺接确定条件</h1>
+<ul>
+<li>相当于“ー……就、“既然……就”</li>
+</ul>
+<ol type="1">
+<li>こんなに暑く<a href="#">ては</a>何もできません</li>
+<li>君にそう言われ<a href="#">ては</a>、誰でも怒る</li>
+<li>そんなに酒を飲ん<a href="#">では</a>、病気になる</li>
+</ol>
+<h1 id="表示动作行为的反复">表示动作、行为的反复</h1>
+<ul>
+<li>相当于“又”、“反复”</li>
+</ul>
+<ol type="1">
+<li>何度も書い<a href="#">ては</a>消して、やっと作文を書き終えた</li>
+<li>おばあさんはそのことを繰り返し繰り返し話し<a href="#">ては</a>泣き、泣い<a href="#">ては</a>話した</li>
+<li>学生のころは小説を読ん<a href="#">では</a>仲間と議論したものだ</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;动词连用形&lt;/strong&gt;／&lt;strong&gt;动词型助动词连用形&lt;/strong&gt;／&lt;strong&gt;形容词连用形&lt;/strong&gt;／&lt;strong&gt;形容词型助动词连用形&lt;/strong&gt;＋ては&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;形容动词词干&lt;/strong&gt;／&lt;strong&gt;形容动词型助动词词干&lt;/strong&gt;＋では&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
+    
+      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
+    
+      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
+    
+      <category term="接续助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/setuzoku/"/>
+    
+    
+      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>接续助词と、ば、たら、なら的区别</title>
@@ -1172,8 +1238,8 @@
   
   <entry>
     <title>格助词へ</title>
-    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-he/"/>
-    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-he/</id>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-e/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-e/</id>
     <published>2016-10-27T10:43:35.000Z</published>
     <updated>2016-10-27T10:43:35.000Z</updated>
     
@@ -1207,137 +1273,6 @@
     
       &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;／某些&lt;strong&gt;助词&lt;/strong&gt;＋へ&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="日语" scheme="https://chingsko.oschina.io/categories/japanese/"/>
-    
-      <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
-    
-      <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
-    
-      <category term="格助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/kaku/"/>
-    
-    
-      <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>格助词に</title>
-    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-ni/"/>
-    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-ni/</id>
-    <published>2016-10-27T06:12:42.000Z</published>
-    <updated>2016-10-27T06:12:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li><strong>体言</strong>／<strong>用言连体形</strong>／<strong>助动词连体形</strong>／<strong>动词连用形</strong>／某些<strong>助词</strong>＋に</li>
-</ul>
-<a id="more"></a>
-<h1 id="表示人或物存在的场所">表示人或物存在的场所</h1>
-<ul>
-<li>相当于“在”</li>
-</ul>
-<ol type="1">
-<li>公園は駅の<ruby>側<rp> (</rp><rt>そば</rt><rp>) </rp></ruby><a href="#">に</a>ある</li>
-<li>家の前<a href="#">に</a>車が止まっている</li>
-</ol>
-<h1 id="表示动作的方向或到达点">表示动作的方向或到达点</h1>
-<ul>
-<li>相当于“向”、“到”</li>
-</ul>
-<ol type="1">
-<li>彼はもう北京<a href="#">に</a>着いた</li>
-<li>椅子<a href="#">に</a><ruby>腰<rp> (</rp><rt>こし</rt><rp>) </rp></ruby>かけてください</li>
-<li>彼は毎日バスで会社<a href="#">に</a>行く</li>
-</ol>
-<h1 id="表示动作进行的时间">表示动作进行的时间</h1>
-<ul>
-<li>相当于“在”，但一般可不译</li>
-</ul>
-<ol type="1">
-<li>午前8時<a href="#">に</a>授業が始まる</li>
-<li>日曜日<a href="#">に</a>テニスをする</li>
-<li>月末まで<a href="#">に</a>部屋代を払う</li>
-</ol>
-<h1 id="表示动作的目的">表示动作的目的</h1>
-<ol type="1">
-<li>友達が遊び<a href="#">に</a>来た</li>
-<li>図書館へ本を読み<a href="#">に</a>行く</li>
-<li>銀座へ行く<a href="#">に</a>は地下鉄が便利だ</li>
-</ol>
-<h1 id="表示动作作用的对象">表示动作、作用的对象</h1>
-<ul>
-<li>相当于“给”、“对”，有时可不译</li>
-</ul>
-<ol type="1">
-<li>体<a href="#">に</a>注意してください</li>
-<li>先生<a href="#">に</a>相談する</li>
-<li>私は兄<a href="#">に</a>万年筆をあげた</li>
-</ol>
-<h1 id="表示动作作用的原因">表示动作、作用的原因</h1>
-<ol type="1">
-<li>地震<a href="#">に</a>びっくりする</li>
-<li>あまりの悲しさ<a href="#">に</a>、話も出ない</li>
-<li>彼はその仕事の成功<a href="#">に</a>、すっかり自信をつけてしまった</li>
-</ol>
-<h1 id="表示比例分配的基准">表示比例、分配的基准</h1>
-<ul>
-<li>相当于“每”</li>
-</ul>
-<ol type="1">
-<li>1ヶ月<a href="#">に</a>3回映画をみる</li>
-<li>1人<a href="#">に</a>3冊ずつ<ruby>配<rp> (</rp><rt>くば</rt><rp>) </rp></ruby>る</li>
-<li>3回<a href="#">に</a>１回は失敗する</li>
-</ol>
-<h1 id="表示比较评价的基准">表示比较、评价的基准</h1>
-<ul>
-<li>相当于“于”、“和”</li>
-</ul>
-<ol type="1">
-<li>運動は体<a href="#">に</a>良い</li>
-<li>私の家は駅<a href="#">に</a>近い</li>
-</ol>
-<h1 id="表示被动句中的施动者">表示被动句中的施动者</h1>
-<ul>
-<li>相当于“被”、“挨”、“受到”</li>
-</ul>
-<ol type="1">
-<li>宿題を忘れて、先生<a href="#">に</a>叱られた</li>
-<li>子供が犬<a href="#">に</a><ruby>噛<rp> (</rp><rt>か</rt><rp>) </rp></ruby>まれた</li>
-<li>すり<a href="#">に</a>財布をすられた</li>
-</ol>
-<h1 id="表示使役的对象">表示使役的对象</h1>
-<ul>
-<li>相当于“使”、“叫”、“让”</li>
-</ul>
-<ol type="1">
-<li>父は弟<a href="#">に</a>日本語を勉強させる</li>
-<li>赤ちゃん<a href="#">に</a>ミルクを飲ませる</li>
-</ol>
-<h1 id="表示事物变化的结果">表示事物变化的结果</h1>
-<ol type="1">
-<li>壁を青色<a href="#">に</a><ruby>塗<rp> (</rp><rt>ぬ</rt><rp>) </rp></ruby>る</li>
-<li><ruby>氷<rp> (</rp><rt>ひょう</rt><rp>) </rp></ruby>
-が溶けて、水<a href="#">に</a>なる</li>
-<li>この魚を刺身<a href="#">に</a>して食べるとおいしい</li>
-</ol>
-<h1 id="表示主体">表示主体</h1>
-<ul>
-<li>常用“には”、“にも&quot;的形式</li>
-</ul>
-<ol type="1">
-<li>私<a href="#">に</a>はよくわからない</li>
-<li>これぐらいの本なら、私<a href="#">に</a>も読める</li>
-<li>この頃先生<a href="#">に</a>はいかがお過ごしでいらっしゃいますか</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;体言&lt;/strong&gt;／&lt;strong&gt;用言连体形&lt;/strong&gt;／&lt;strong&gt;助动词连体形&lt;/strong&gt;／&lt;strong&gt;动词连用形&lt;/strong&gt;／某些&lt;strong&gt;助词&lt;/strong&gt;＋に&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>

@@ -4,6 +4,47 @@
   
     
     <entry>
+      <title><![CDATA[接续助词ては（では）]]></title>
+      <url>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/setuzoku/aux-word-setuzoku-tewa/</url>
+      <content type="html"><![CDATA[<ul>
+<li><strong>动词连用形</strong>／<strong>动词型助动词连用形</strong>／<strong>形容词连用形</strong>／<strong>形容词型助动词连用形</strong>＋ては</li>
+<li><strong>形容动词词干</strong>／<strong>形容动词型助动词词干</strong>＋では</li>
+</ul>
+<a id="more"></a>
+<h1 id="表示顺接假定条件">表示顺接假定条件</h1>
+<ul>
+<li>前项条件多为不如意或后果不好的事情</li>
+<li>后项多为否定或消扱的内容</li>
+<li>相当于“如果……就”</li>
+</ul>
+<ol type="1">
+<li><ruby>慌<rp> (</rp><rt>あわ</rt><rp>) </rp></ruby>
+て<a href="#">ては</a>仕事はよくできないだろう</li>
+<li>先生が字を間違え<a href="#">ては</a>困りますね</li>
+<li>途中で止め<a href="#">ては</a>何もならない</li>
+</ol>
+<h1 id="表示顺接确定条件">表示顺接确定条件</h1>
+<ul>
+<li>相当于“ー……就、“既然……就”</li>
+</ul>
+<ol type="1">
+<li>こんなに暑く<a href="#">ては</a>何もできません</li>
+<li>君にそう言われ<a href="#">ては</a>、誰でも怒る</li>
+<li>そんなに酒を飲ん<a href="#">では</a>、病気になる</li>
+</ol>
+<h1 id="表示动作行为的反复">表示动作、行为的反复</h1>
+<ul>
+<li>相当于“又”、“反复”</li>
+</ul>
+<ol type="1">
+<li>何度も書い<a href="#">ては</a>消して、やっと作文を書き終えた</li>
+<li>おばあさんはそのことを繰り返し繰り返し話し<a href="#">ては</a>泣き、泣い<a href="#">ては</a>話した</li>
+<li>学生のころは小説を読ん<a href="#">では</a>仲間と議論したものだ</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[接续助词と、ば、たら、なら的区别]]></title>
       <url>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/setuzoku/aux-word-setuzoku-diff-to-ba-tara-nara/</url>
       <content type="html"><![CDATA[<h1 id="表示恒常条件时">表示恒常条件时</h1>
@@ -696,7 +737,7 @@
     
     <entry>
       <title><![CDATA[格助词へ]]></title>
-      <url>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-he/</url>
+      <url>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-e/</url>
       <content type="html"><![CDATA[<ul>
 <li><strong>体言</strong>／某些<strong>助词</strong>＋へ</li>
 </ul>
@@ -978,7 +1019,7 @@
 <li><a href="/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-no/" title="の">の</a></li>
 <li><a href="/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-wo/" title="を">を</a></li>
 <li><a href="/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-ni/" title="に">に</a></li>
-<li><a href="/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-he/" title="へ">へ</a></li>
+<li></li>
 <li><a href="/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-to/" title="と">と</a></li>
 <li><a href="/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-de/" title="で">で</a></li>
 <li><a href="/posts/japanese/gramma/aux-word/kaku/aux-word-kaku-kara/" title="から">から</a></li>
@@ -1154,10 +1195,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts7789" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts6649" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts7789'));
+        var myChart = echarts.init(document.getElementById('echarts6649'));
 
         // 指定图表的配置项和数据
         var option = {
