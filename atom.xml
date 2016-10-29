@@ -17,8 +17,8 @@
   
   <entry>
     <title>接续助词て（で）</title>
-    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-setuzoku-te/"/>
-    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/aux-word-setuzoku-te/</id>
+    <link href="https://chingsko.oschina.io/posts/japanese/gramma/aux-word/setuzoku/aux-word-setuzoku-te/"/>
+    <id>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/setuzoku/aux-word-setuzoku-te/</id>
     <published>2016-10-29T02:46:32.000Z</published>
     <updated>2016-10-29T02:46:32.000Z</updated>
     
@@ -81,6 +81,8 @@
       <category term="语法" scheme="https://chingsko.oschina.io/categories/japanese/gramma/"/>
     
       <category term="助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/"/>
+    
+      <category term="接续助词" scheme="https://chingsko.oschina.io/categories/japanese/gramma/aux-word/setuzoku/"/>
     
     
       <category term="日语学习" scheme="https://chingsko.oschina.io/tags/japanese-learning/"/>
@@ -1322,10 +1324,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts1181" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts3800" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1181'));
+        var myChart = echarts.init(document.getElementById('echarts3800'));
 
         // 指定图表的配置项和数据
         var option = {
