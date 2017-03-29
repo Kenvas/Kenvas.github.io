@@ -4,6 +4,63 @@
   
     
     <entry>
+      <title><![CDATA[SpiderMonkey 编译]]></title>
+      <url>https://chingsko.oschina.io/posts/tech/build/build-spidermonkey/</url>
+      <content type="html"><![CDATA[<h1 id="准备工作">准备工作</h1>
+<ul>
+<li><a href="https://people.mozilla.org/~sfink/mozjs-45.0.2.tar.bz2" target="_blank" rel="external">SpiderMonkey45 Source Code</a></li>
+<li><a href="https://ftp.mozilla.org/pub/mozilla.org/mozilla/libraries/win32/MozillaBuildSetup-Latest.exe" target="_blank" rel="external">MozillaBuild package</a></li>
+</ul>
+<h1 id="编译环境">编译环境</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">OS</td>
+<td style="text-align: center;">Win10 64bit</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">C++ Compiler</td>
+<td style="text-align: center;">Visual Studio 2015</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h1 id="开始编译">开始编译</h1>
+<p>执行<code>MozillaBuild</code>安装目录（默认在<code>C:/mozilla-build</code>）中的<code>start-shell-msvc2015.bat</code><strong>（安装路径里有空格的话会执行失败）</strong></p>
+<h2 id="编译-nspr">编译 NSPR</h2>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">hg clone https://hg.mozilla.org/projects/nspr /c/nspr/mozilla/nsprpub</div><div class="line">cd /c/nspr</div><div class="line">mkdir target.debug</div><div class="line">cd target.debug</div><div class="line">../mozilla/nsprpub/configure --enable-win32-target=WIN95 (for release [--disable-debug --enable-optimize])</div><div class="line">mozmake</div></pre></td></tr></table></figure>
+<ul>
+<li>将编译好的库拷到 <code>C:/mozilla-build/msys/local/</code></li>
+<li>添加环境变量 <code>PATH=&quot;$PATH;C:/mozilla-build/msys/local/lib/&quot;</code></li>
+</ul>
+<h2 id="编译-spidermonkey45">编译 SpiderMonkey45</h2>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">cd /c/mozjs-45.0.2/js/src</div><div class="line">autoconf-2.13</div><div class="line">mkdir build_OPT.OBJ</div><div class="line">cd build_OPT.OBJ</div><div class="line">../configure --target=x86_64-pc-mingw32 --host=x86_64-pc-mingw32 \</div><div class="line">  --with-nspr-cflags=&quot;-IC:/mozilla-build/msys/local/include/nspr&quot; \</div><div class="line">  --with-nspr-libs=&quot;C:/mozilla-build/msys/local/lib/nspr4 \</div><div class="line">  C:/mozilla-build/msys/local/lib/plds4 \</div><div class="line">  C:/mozilla-build/msys/local/lib/plc4&quot;</div><div class="line">mozmake</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="参考资料">参考资料</h1>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Build_Documentation" target="_blank" rel="external">SpiderMonkey Build Documentation</a></li>
+<li><a href="http://www.cctry.com/forum.PHP?mod=viewthread&amp;tid=250698&amp;extra=page%3D1&amp;page=1&amp;" target="_blank" rel="external">Windows 系统编译制作 SpiderMonkey</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+            <category> 库编译 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 库编译 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[接续助词から、ので的区别]]></title>
       <url>https://chingsko.oschina.io/posts/japanese/gramma/aux-word/setuzoku/aux-word-setuzoku-diff-kara-node/</url>
       <content type="html"><![CDATA[<ul>
@@ -21,6 +78,26 @@
 <li>テープルの上は<ruby>汚<rp> (</rp><rt>けが</rt><rp>) </rp></ruby>れている<a href="#">から</a><ruby>拭<rp> (</rp><rt>ふ</rt><rp>) </rp></ruby>いてくれませんか</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -43,6 +120,26 @@
 <li>病気な<a href="#">ので</a>，学校を休みました</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -66,6 +163,26 @@
 <li>暑い<a href="#">から</a>、窓を開けてください</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -107,6 +224,26 @@
 <li>学生のころは小説を読ん<a href="#">では</a>仲間と議論したものだ</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -153,6 +290,26 @@
 <li>電気をつける（ｏと ｘば ｏたら ｘなら）、明るくなった</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -176,6 +333,26 @@
 <li>寿司<a href="#">なら</a>、あの店が安くておいしい</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -217,6 +394,26 @@
 <li>お風呂に入ってい<a href="#">たら</a>、電話がかかってきた</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -273,6 +470,26 @@
 <li>スポーツをやめる<a href="#">と</a>すぐ太り出した</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -329,6 +546,26 @@
 <li>あの人は酒も飲め<a href="#">ば</a>たはこも吸う</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -361,6 +598,26 @@
 <li>山の中<a href="#">ながら</a>（も）りっぱな工場がある</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -392,6 +649,26 @@
 <li>痛みも<ruby>治<rp> (</rp><rt>なお</rt><rp>) </rp></ruby>った<a href="#">し</a>、熱もない<a href="#">し</a>、もう薬はいりません</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -441,6 +718,26 @@
 <li>資料を調べ<a href="#">て</a>みなさい</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 接续助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -474,6 +771,26 @@
 <li>ここ<a href="#">より</a>駅まで歩いて15分ぐらいかかる</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -496,6 +813,26 @@
 <li>大阪（ｏから ｘを）新幹線で東京にきた</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -519,6 +856,26 @@
 <li>停年<a href="#">まで</a>ずつと同じ会社にいる人が増えた</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -538,6 +895,26 @@
 <li>酒は<ruby>米<rp> (</rp><rt>こめ</rt><rp>) </rp></ruby>（ｏで ｏから）作る</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -592,6 +969,26 @@
 <li>カラオケは、上司<a href="#">から</a>まず歌わなければならない</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -617,6 +1014,26 @@
 <li>この服は5日でできます</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -691,6 +1108,26 @@
 <li>学校<a href="#">で</a>はそんなことを教えないはずだ</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -716,6 +1153,26 @@
 <li>一郎は30年の政治家生活の後、ついに総理大臣となった</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -772,6 +1229,26 @@
 <li>飛行機が<ruby>東<rp> (</rp><rt>ひがし</rt><rp>) </rp></ruby>へ東へ<a href="#">と</a>飛んでいく</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -798,6 +1275,26 @@
 <li>これは母（ｘに ｏへ）の手紙です</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -828,6 +1325,26 @@
 <li>これは君<a href="#">へ</a>の贈り物だ</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -935,6 +1452,26 @@
 <li>この頃先生<a href="#">に</a>はいかがお過ごしでいらっしゃいますか</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -984,6 +1521,26 @@
 <li>子供<a href="#">を</a>泣かせるのはよくない</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -1030,6 +1587,26 @@
 <li>僕の親友<a href="#">の</a>鈴木さんも早大出身です</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -1059,6 +1636,26 @@
 <li>日本語<a href="#">が</a>話せる</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+            <category> 格助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -1189,6 +1786,24 @@
 <li>な</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+            <category> 语法 </category>
+            
+            <category> 助词 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -1260,10 +1875,10 @@
 <h1 id="hexo-tag-echartstag-echarts"><a href="http://zhoulvjun.github.io/2016/02/07/hexo-tag-echarts/" target="_blank" rel="external">hexo-tag-echarts</a></h1>
 <p>插件安装好后在<code>主题目录</code>下的 <code>layout/_partial/head.ejs</code>（<code>NexT</code> 主题对应是 <code>head.swig</code>）中添加以下代码， 添加在文件最后即可</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://echarts.baidu.com/dist/echarts.common.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<div id="echarts1073" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<div id="echarts4833" style="width: 81%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1073'));
+        var myChart = echarts.init(document.getElementById('echarts4833'));
 
         // 指定图表的配置项和数据
         var option = {
@@ -1332,6 +1947,22 @@
         myChart.setOption(option);
 </script>
 ]]></content>
+      
+        <categories>
+            
+            <category> 工具 </category>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -1733,6 +2364,20 @@
 <li>外来语用长音符号「ー」表示</li>
 </ul>
 ]]></content>
+      
+        <categories>
+            
+            <category> 日语 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日语学习 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -2488,6 +3133,22 @@ rgb(255, 69, 0)
 </tbody>
 </table>
 ]]></content>
+      
+        <categories>
+            
+            <category> 工具 </category>
+            
+            <category> Markdown </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -2617,6 +3278,22 @@ rgb(255, 69, 0)
 </ol>
 </section>
 ]]></content>
+      
+        <categories>
+            
+            <category> 工具 </category>
+            
+            <category> Markdown </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+        
     </entry>
     
   
